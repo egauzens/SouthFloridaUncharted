@@ -1,0 +1,30 @@
+.main-content{
+	overflow: hidden;
+}
+
+.large-fish {
+	width: 30%;
+	height:  auto;
+  	position: absolute;
+  	z-index: 1; 
+  	visibility: hidden;
+}
+
+.small-fish {
+	width: 10%;
+	height:  auto;
+  	position: absolute;
+  	z-index: 1; 
+  	visibility: hidden;
+}
+
+.parallax {
+  background-image: url('../../media/fishing-parallax.jpg');
+  height: 300px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+}
